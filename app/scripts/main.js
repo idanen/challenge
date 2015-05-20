@@ -3,7 +3,7 @@
 	function init() {
 		setTimeout( function () {
 			$('.word').has('.heart').addClass( 'pulse' );
-		}, 1100);
+		}, 2000);
 	}
 
 	$( document ).ready( init );
