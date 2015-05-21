@@ -16,6 +16,23 @@
   left: calc(50vw - 306px);
 }
 
+@media screen and (max-width: 640px) {
+  .logo {
+    width: 100%;
+    height: auto;
+    position: static;
+    font-size: 48px;
+    padding: 40px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .logo {
+    font-size: 36px;
+    padding: 20px;
+  }
+}
+
 body {
   background-color: #ddd;
 }
